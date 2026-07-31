@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressAccessibilityFixes;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressAccessibilityFixesFeature {
+final class Feature {
     private const OPTION = 'wordpress_accessibility_fixes_enabled';
     private const SLUG = 'wordpress-accessibility-fixes';
     private const TITLE = 'WordPress Accessibility Fixes';
